@@ -12,6 +12,13 @@ Rows are free: placing exactly one queen per row eliminates row conflicts by con
 
 **Complexity:** exponential in n (it must be — solutions are exponential); O(n) state.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
